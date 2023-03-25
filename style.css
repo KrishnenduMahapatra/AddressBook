@@ -1,0 +1,56 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+div {
+	margin: 10px 0;
+}
+
+label {
+	display: inline-block;
+	width: 80px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+	width: 200px;
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0;
+}
+
+li {
+	margin-bottom: 5px;
+	padding: 5px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+
+li:hover {
+	background-color: #ddd;
+}
